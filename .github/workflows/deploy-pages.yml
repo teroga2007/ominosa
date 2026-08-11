@@ -39,7 +39,7 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       - name: Build
-        run: pnpm build -- --base=/ominosa/
+        run: pnpm build:pages
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v4

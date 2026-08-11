@@ -25,6 +25,7 @@ const platforms = [
   { name: 'Instagram', href: MUSIC.instagram },
   { name: 'TikTok', href: MUSIC.tiktok },
 ]
+const asset = (file: string) => `${import.meta.env.BASE_URL}assets/${file}`
 
 const External = ({ className = '' }: { className?: string }) => <ArrowUpRight className={className} strokeWidth={1.6} aria-hidden="true" />
 const formatTitle = (text: string) => text.split('\n').map((line, i) => <span key={line}>{line}{i === 0 && <br />}</span>)
@@ -44,7 +45,7 @@ export default function App() {
 
   return <main>
     <nav className="topbar" aria-label="Primary navigation">
-      <button className="wordmark" onClick={() => go('top')} aria-label="Ominosa home"><img src="/assets/ominosa-wordmark.png" alt="Ominosa" /></button>
+      <button className="wordmark" onClick={() => go('top')} aria-label="Ominosa home"><img src={asset('ominosa-wordmark.png')} alt="Ominosa" /></button>
       <div className="nav-links">
         <button onClick={() => go('album')}>{copy.nav.album}</button>
         <button onClick={() => go('story')}>{copy.nav.story}</button>
@@ -90,7 +91,7 @@ export default function App() {
         </div>
       </div>
       <div className="album-artwork">
-        <img src="/assets/deaf-and-blinded-god.jpg" alt="Deaf and Blinded God — Ominosa" />
+        <img src={asset('deaf-and-blinded-god.jpg')} alt="Deaf and Blinded God — Ominosa" />
         <div className="art-credit"><span className="rule" />{copy.album.credit}</div>
       </div>
     </section>
@@ -126,6 +127,6 @@ export default function App() {
       </div>
     </section>
 
-    <footer className="section-shell footer"><div><img className="footer-logo" src="/assets/ominosa-wordmark.png" alt="Ominosa" /><span>{copy.footer.location}</span></div><div className="footer-links"><a href="mailto:ominosacr@gmail.com">{copy.footer.booking}</a><a href={MUSIC.instagram} target="_blank" rel="noreferrer"><Camera /> Instagram</a><a href="https://www.instagram.com/sdigital.cr/" target="_blank" rel="noreferrer">{copy.footer.credit} <External /></a></div><small>{copy.footer.rights}</small></footer>
+    <footer className="section-shell footer"><div><img className="footer-logo" src={asset('ominosa-wordmark.png')} alt="Ominosa" /><span>{copy.footer.location}</span></div><div className="footer-links"><a href="mailto:ominosacr@gmail.com">{copy.footer.booking}</a><a href={MUSIC.instagram} target="_blank" rel="noreferrer"><Camera /> Instagram</a><a href="https://www.instagram.com/sdigital.cr/" target="_blank" rel="noreferrer">{copy.footer.credit} <External /></a></div><small>{copy.footer.rights}</small></footer>
   </main>
 }

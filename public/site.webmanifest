@@ -2,13 +2,13 @@
   "name": "Ominosa — Deaf and Blinded God",
   "short_name": "Ominosa",
   "description": "Melodic death metal from Costa Rica.",
-  "start_url": "/",
+  "start_url": "./",
   "display": "standalone",
   "background_color": "#090908",
   "theme_color": "#090908",
   "icons": [
     {
-      "src": "/favicon.svg",
+      "src": "./favicon.svg",
       "sizes": "any",
       "type": "image/svg+xml"
     }
