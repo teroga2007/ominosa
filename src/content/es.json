@@ -1,0 +1,33 @@
+{
+  "nav": { "album": "El álbum", "story": "Origen", "members": "Integrantes", "listen": "Escuchar" },
+  "hero": {
+    "eyebrow": "Death melodic metal · Costa Rica",
+    "release": "Nuevo álbum de estudio · julio 2026",
+    "title": "Deaf and\nBlinded God",
+    "description": "Nueve canciones nacidas desde la oscuridad, la extinción y la posibilidad de evolucionar.",
+    "primary": "Escuchar ahora",
+    "secondary": "Explorar el álbum"
+  },
+  "album": {
+    "eyebrow": "01 — El lanzamiento",
+    "title": "Una herida abierta\nen el cosmos.",
+    "body": "Un parásito invade a su huésped hasta consumirlo. Así se mira Ominosa ante la humanidad: una especie breve y destructiva sobre una roca flotante. Deaf and Blinded God recorre la panspermia, el poder, la guerra y la autodestrucción; pero deja un espacio para elegir algo más que el odio.",
+    "meta": ["9 tracks", "Álbum de estudio", "Julio 2026"],
+    "credit": "Arte del álbum por Víctor Ureña",
+    "cta": "Apoya a la banda · Bandcamp"
+  },
+  "tracks": { "eyebrow": "02 — Fragmentos", "title": "El ciclo se repite.", "items": [
+    { "number": "I", "name": "From Skies Above", "text": "Una visión de la humanidad como huésped: invasiva, devastadora y efímera frente a la escala cósmica." },
+    { "number": "II", "name": "Tyrant's Fall", "text": "Ambición sin límite y poder absoluto; el peso de sus consecuencias siempre cae sobre otros." },
+    { "number": "III", "name": "Faces of Oblivion", "text": "El mismo error en un loop infinito: guerras, expansión y vidas inocentes borradas a su paso." }
+  ]},
+  "story": { "eyebrow": "03 — Ominosa", "title": "Sonido nacido\ndesde Costa Rica.", "body": "Ominosa es una banda de death melodic metal costarricense. Con riffs contundentes, atmósferas densas y una mirada conceptual, la banda construye canciones donde la violencia humana y la introspección chocan de frente.", "production": "Deaf and Blinded God fue trabajado en VM Studio junto a Carlos Vega Madrigal y GBHrekordz. Gilberth de Sr. Mephisto participó en la grabación de baterías; las introducciones y elementos orquestales fueron creados por Gabo Montero." },
+  "members": { "eyebrow": "04 — Integrantes", "title": "Cuatro integrantes\ndefinen esta fuerza.", "items": [
+    { "name": "Gabo Montero", "role": "Voz · Guitarra" },
+    { "name": "Wayner Morales", "role": "Bajo" },
+    { "name": "Carlos Vega", "role": "Guitarra" },
+    { "name": "Jimmy", "role": "Batería" }
+  ]},
+  "listen": { "eyebrow": "05 — Conecta", "title": "Encuentra a\nOminosa.", "body": "Escucha, sigue y acompaña el siguiente capítulo.", "all": "Todas las plataformas" },
+  "footer": { "location": "Costa Rica", "booking": "Contrataciones: ominosacr@gmail.com", "credit": "Sitio por S-Digital", "rights": "© 2026 Ominosa. Todos los derechos reservados." }
+}

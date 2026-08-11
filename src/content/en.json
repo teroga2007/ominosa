@@ -1,0 +1,33 @@
+{
+  "nav": { "album": "The album", "story": "Origin", "members": "Members", "listen": "Listen" },
+  "hero": {
+    "eyebrow": "Melodic death metal · Costa Rica",
+    "release": "New studio album · July 2026",
+    "title": "Deaf and\nBlinded God",
+    "description": "Nine songs born from darkness, extinction, and the possibility of evolving.",
+    "primary": "Listen now",
+    "secondary": "Explore the album"
+  },
+  "album": {
+    "eyebrow": "01 — The release",
+    "title": "An open wound\nin the cosmos.",
+    "body": "A parasite invades its host until it consumes it. This is how Ominosa sees humanity: a brief and destructive species upon a floating rock. Deaf and Blinded God travels through panspermia, power, war and self-destruction—yet leaves room to choose something beyond hate.",
+    "meta": ["9 tracks", "Studio album", "July 2026"],
+    "credit": "Album art by Víctor Ureña",
+    "cta": "Support the band · Bandcamp"
+  },
+  "tracks": { "eyebrow": "02 — Fragments", "title": "The cycle repeats.", "items": [
+    { "number": "I", "name": "From Skies Above", "text": "A vision of humanity as a host: invasive, devastating and fleeting against the cosmic scale." },
+    { "number": "II", "name": "Tyrant's Fall", "text": "Limitless ambition and absolute power; the weight of their consequences always falls on others." },
+    { "number": "III", "name": "Faces of Oblivion", "text": "The same mistake in an endless loop: wars, expansion and innocent lives erased in its wake." }
+  ]},
+  "story": { "eyebrow": "03 — Ominosa", "title": "Sound born\nin Costa Rica.", "body": "Ominosa is a Costa Rican melodic death metal band. Through crushing riffs, dense atmospheres and a conceptual gaze, the band builds songs where human violence and introspection collide head-on.", "production": "Deaf and Blinded God was crafted at VM Studio with Carlos Vega Madrigal and GBHrekordz. Gilberth of Sr. Mephisto took part in the drum recording; the introductions and orchestral elements were created by Gabo Montero." },
+  "members": { "eyebrow": "04 — Members", "title": "Four members\ndefine this force.", "items": [
+    { "name": "Gabo Montero", "role": "Vocals · Guitar" },
+    { "name": "Wayner Morales", "role": "Bass" },
+    { "name": "Carlos Vega", "role": "Guitar" },
+    { "name": "Jimmy", "role": "Drums" }
+  ]},
+  "listen": { "eyebrow": "05 — Connect", "title": "Find\nOminosa.", "body": "Listen, follow and join the next chapter.", "all": "All platforms" },
+  "footer": { "location": "Costa Rica", "booking": "Booking: ominosacr@gmail.com", "credit": "Website by S-Digital", "rights": "© 2026 Ominosa. All rights reserved." }
+}
